@@ -1,0 +1,37 @@
+{
+  "name": "qiushengxp/yicheng-application",
+  "type": "library",
+  "description": "应用包，依赖thinkphp6",
+  "keywords": [
+    "yicheng",
+    "application"
+  ],
+  "homepage": "https://github.com/qiushengxp/yicheng-application.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "qiushengxp",
+      "email": "qiushengxp@qq.com",
+      "homepage": "https://gitee.com/qiushengxp"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "qiushengxp/yicheng-framework": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yicheng-application\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "minimum-stability": "dev"
+}
